@@ -43,4 +43,4 @@ client.connect(err => {
 });
 
 
-app.listen(5000);
+app.listen(process.env.DB_HOST || 5000);
