@@ -42,5 +42,5 @@ client.connect(err => {
   });
 });
 
-
-app.listen(process.env.DB_HOST || 5000);
+const port = 5000;
+app.listen(process.env.DB_HOST || port);
